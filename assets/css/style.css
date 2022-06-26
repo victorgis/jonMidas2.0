@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffc107;
+  background: #133D1C;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -216,11 +216,91 @@ button.my-resume{
 #main {
   background: #D6FE5E;
 }
+.img-responsive {
+  max-width: 100%;
+}
 .white-box{
   background: white;
   border-radius: 20px;
+  /* padding: 80px; */
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: auto;
+  /* text-align: left; */
 }
+.what-to-do {
+  text-align: left;
+  align-self: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.wtd-h1 {
+  font-family: Yeseva One;
+  font-size: 68px;
+  line-height: 70px;
+  margin-bottom: 20px;
+  color:#133D1C;
+}
+.wtd-p {
+  color:#133D1C !important;
+  margin-bottom: 40px;
+}
+.img-wtd {
+  max-width: 100%;
+}
+button.view-projects{
+  color: #fff;
+  background: #133D1C;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 8px solid #133D1C; /* Green */
+  border-radius: 12px;
+}
+.green-box {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  /* text-align: right; */
+}
+.looking-h1 {
+  font-family: Yeseva One;
+  font-size: 68px;
+  line-height: 70px;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  color:#133D1C;
+  /* padding-left: 60px; */
+  padding-right: 60px;
+}
+.looking-p {
+  color:#133D1C !important;
+  margin-bottom: 40px;
+  /* padding-left: 60px; */
+  padding-right: 80px;
+}
+.homffice-box {
+  background: #133D1C;
+  padding: 80px;
+  margin-bottom: 80px;
+  max-width: 100%;
+  height: 260px;
+}
+.homffice {
+  font-size: 50px;
+}
+.homffice-p {
+  color: #fff !important;
+  font-size: 25px !important;
 
+}
+.homffice-girl {
+  text-align: right;
+}
+.img-homffice-girl {
+  width: 50%;
+}
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -346,8 +426,86 @@ button.my-resume{
     padding-right: 10px;
     color: #133D1C;
   }
-  .bicycle-man{
+  .bicycle-man {
     width: 50%;
+  }
+  .woman-finder {
+    width: 50%;
+  }
+  .white-box{
+    background: white;
+    border-radius: 20px;
+    /* padding: 80px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    /* text-align: left; */
+  }
+  .what-to-do {
+    text-align: center;
+    align-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+  }
+  .wtd-h1 {
+    font-family: Yeseva One;
+    font-size: 30px;
+    line-height: 33px;
+    margin-bottom: 20px;
+    color:#133D1C;
+  }
+  .wtd-p {
+    color:#133D1C !important;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .green-box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* text-align: right; */
+  }
+  .looking {
+    text-align: center;
+    align-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  .looking-h1 {
+    font-family: Yeseva One;
+    font-size: 33px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color:#133D1C;
+    /* padding-left: 60px; */
+    padding-right: 0px !important;
+  }
+  .looking-p {
+    color:#133D1C !important;
+    /* margin-bottom: 40px; */
+    /* padding-left: 60px; */
+    padding-right: 0px !important;
+    font-size: 14px;
+  }
+  .homffice-box {
+    background: #133D1C;
+    padding: 30px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    height: 360px;
+  }
+  .homffice-p {
+    font-size: 18px !important;
+    margin-bottom: 40px;
+  }
+  .homffice-girl {
+    text-align: center;
   }
 }
 .navbar-mobile {
