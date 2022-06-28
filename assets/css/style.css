@@ -189,6 +189,13 @@ button.reach-me{
   border: 8px solid #B0EE4F; /* Green */
   border-radius: 12px;
 }
+button.reach-me-form{
+  color: #133D1C;
+  background: #B0EE4F;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 8px solid #B0EE4F; /* Green */
+  border-radius: 12px;
+}
 button.my-resume{
   color: #133D1C;
   background: #fff;
@@ -209,6 +216,7 @@ button.my-resume{
   padding-left: 380px;
   padding-right: 380px;
   color: #133D1C;
+  font-size: 20px;
 }
 #main {
   background: #D6FE5E;
@@ -329,6 +337,10 @@ button.view-projects{
   width: 40px;
   margin-right: 10px;
 }
+.table-girl {
+  margin-top: 30px;
+  width: 40%;
+}
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -426,6 +438,11 @@ button.view-projects{
     background: white !important;
     border: 0px solid #fff !important; /* Green */
   }
+  .reach-me-form {
+    background: #B0EE4F;
+    border: 8px solid #B0EE4F !important; /* Green */
+    border-radius:8px;
+  }
   ul.menu-center{
     margin-left: 0px !important;
     /* display: block; */
@@ -487,12 +504,17 @@ button.view-projects{
   #hero .hero-p {
     font-size: 14px;
     margin-top: 25px;
+    margin-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
     color: #133D1C;
   }
   .bicycle-man {
     width: 50%;
+  }
+  .table-girl {
+    margin-top: 0px;
+    width: 70%;
   }
   .woman-finder {
     width: 50%;
@@ -581,6 +603,29 @@ button.view-projects{
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 50px;
+  }
+  .green-h1 {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* text-align: right; */
+  }
+  .ourpass-h1 {
+    color: #133D1C;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+  }
+  .ourpass-svg {
+    margin-bottom: 7px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  .ourpass-p {
+    color: #133D1C;
+    font-family: Helvetica Neue;
+    padding-left: 45px;
+    font-size: 18px;
   }
 }
 .navbar-mobile {
