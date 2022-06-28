@@ -210,9 +210,6 @@ button.my-resume{
   padding-right: 380px;
   color: #133D1C;
 }
-#hero {
-  background: #D6FE5E;
-}
 #main {
   background: #D6FE5E;
 }
@@ -264,6 +261,13 @@ button.view-projects{
   padding-right: 70px;
   /* text-align: right; */
 }
+.green-h1 {
+  /* padding-top: 40px; */
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 70px;
+  /* text-align: right; */
+}
 .looking-h1 {
   font-family: Yeseva One;
   font-size: 68px;
@@ -308,6 +312,22 @@ button.view-projects{
 .w3-input {
   color: #133D1C;
   padding: 15px;
+}
+.ourpass-h1 {
+  color: #133D1C;
+  font-family: Helvetica Neue;
+  font-size: 50px;
+}
+.ourpass-p {
+  color: #133D1C;
+  font-family: Helvetica Neue;
+  padding-left: 55px;
+  font-size: 18px;
+}
+.ourpass-svg {
+  margin-bottom: 7px;
+  width: 40px;
+  margin-right: 10px;
 }
 
 @media (max-width: 1366px) {
