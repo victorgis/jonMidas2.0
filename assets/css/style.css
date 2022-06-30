@@ -390,6 +390,17 @@ button.view-projects{
 .conclusion-p {
   color: #fff;
 }
+.column {
+  text-align: center;
+  margin-bottom: 6px;
+}
+.first, .second {
+  background: white;
+  padding: 5px;
+}
+.margin-top-30 {
+  margin-top: 60px;
+}
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
