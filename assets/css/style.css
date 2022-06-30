@@ -269,6 +269,24 @@ button.view-projects{
   padding-right: 70px;
   /* text-align: right; */
 }
+.green-boxes {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* padding-left: 70px;
+  padding-right: 70px; */
+  /* text-align: right; */
+}
+.green-box-hero {
+  padding-top: 140px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+}
+.green-box-hero-disc {
+  margin-top: 60px;
+  /* width: 100%; */
+}
 .green-h1 {
   /* padding-top: 40px; */
   padding-bottom: 10px;
@@ -340,6 +358,19 @@ button.view-projects{
 .table-girl {
   margin-top: 30px;
   width: 40%;
+}
+.ourpass-introduction{
+  font-family: Helvetica Neue;
+  color: #133D1C;
+  margin-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.ourpass-introduction-h1{
+  font-family: Helvetica Neue;
+  color: #133D1C;
+  margin-bottom: 20px;
+  font-size: 40px;
 }
 
 @media (max-width: 1366px) {
