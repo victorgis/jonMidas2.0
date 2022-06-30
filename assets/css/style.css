@@ -310,6 +310,15 @@ button.view-projects{
   /* padding-left: 60px; */
   padding-right: 80px;
 }
+.conclusion-box {
+  background: #133D1C;
+  padding-right: 250px;
+  padding-left: 250px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  max-width: 100%;
+  height: 280px;
+}
 .homffice-box {
   background: #133D1C;
   padding: 80px;
@@ -371,6 +380,15 @@ button.view-projects{
   color: #133D1C;
   margin-bottom: 20px;
   font-size: 40px;
+}
+.conclusion-h1 {
+  font-family: Helvetica Neue;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.conclusion-p {
+  color: #fff;
 }
 
 @media (max-width: 1366px) {
