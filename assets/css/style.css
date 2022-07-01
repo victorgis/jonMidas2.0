@@ -405,6 +405,15 @@ button.view-projects{
   margin-top: 20px;
   margin-bottom: 50px;
 }
+.articles {
+  background-color: rgba(19, 61, 28, 10%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 30px;
+}
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
