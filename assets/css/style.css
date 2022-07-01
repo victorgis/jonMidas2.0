@@ -401,6 +401,10 @@ button.view-projects{
 .margin-top-30 {
   margin-top: 60px;
 }
+.column-big {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
