@@ -118,6 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   white-space: nowrap;
   transition: 0.3s;
+  font-weight: bold;
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
@@ -334,9 +335,10 @@ button.view-projects{
 }
 .homffice-girl {
   text-align: right;
+  padding-top: 30px;
 }
 .img-homffice-girl {
-  width: 50%;
+  width: 60%;
 }
 .cooking-h1 {
   font-family: Yeseva One;
