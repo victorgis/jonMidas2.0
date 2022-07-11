@@ -235,6 +235,7 @@ button.my-resume{
   padding-bottom: 120px;
   margin: auto;
   /* text-align: left; */
+  clear: both;
 }
 .what-to-do {
   text-align: left;
@@ -283,14 +284,11 @@ button.view-projects{
 }
 .green-box-hero-disc {
   margin-top: 60px;
-  /* width: 100%; */
 }
 .green-h1 {
-  /* padding-top: 40px; */
   padding-bottom: 10px;
   padding-left: 100px;
   padding-right: 70px;
-  /* text-align: right; */
 }
 .looking-h1 {
   font-family: Yeseva One;
@@ -299,7 +297,6 @@ button.view-projects{
   margin-bottom: 35px;
   margin-top: 35px;
   color:#133D1C;
-  /* padding-left: 60px; */
   padding-right: 60px;
 }
 .looking-p {
@@ -325,8 +322,8 @@ button.view-projects{
 }
 
 .homffice-p {
-  color: #fff !important;
-  font-size: 25px !important;
+  color: #fff;
+  font-size: 22px;
   font-weight: bold;
 
 }
@@ -335,7 +332,7 @@ button.view-projects{
   padding-top: 30px;
 }
 .img-homffice-girl {
-  width: 60%;
+  width: 180px;
 }
 .cooking-h1 {
   font-family: Yeseva One;
@@ -499,6 +496,7 @@ button.view-projects{
     display: none;
   }
   #hero .hero-h1{
+    margin-top: 120px;
     padding-left: 100px;
     padding-right: 100px;
     font-family: Yeseva One;
@@ -536,6 +534,20 @@ button.view-projects{
     margin-top: 30px;
     width: 60%;
   }
+  .homffice-girl {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .img-homffice-girl {
+    width: 50%;
+  }
+  .homffice-box {
+    background: #133D1C;
+    padding: 80px;
+    margin-bottom: 80px;
+    max-width: 100%;
+    height: 560px;
+  }
 }
 
 @media (max-width: 820px){
@@ -544,9 +556,9 @@ button.view-projects{
     padding-right: 45px;
     font-family: Yeseva One;
     color: #133D1C;
-    font-size: 80px;
-    line-height: 85px;
-    margin-top: 120px;
+    font-size: 300%;
+    line-height: 130%;
+    /* margin-top: 120px; */
   }
   #hero .hero-p {
     margin-top: 40px;
@@ -554,7 +566,7 @@ button.view-projects{
     padding-left: 50px;
     padding-right: 50px;
     color: #133D1C;
-    font-size: 30px;
+    font-size: 15px;
   }
   #about-it {
     margin-top: 30px;
@@ -562,6 +574,7 @@ button.view-projects{
   .what-to-do {
     text-align: center;
     align-self: center;
+    margin-bottom: 40px;
   }
   .looking {
     text-align: center;
@@ -572,9 +585,9 @@ button.view-projects{
   }
   .homffice-box {
     padding: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
     max-width: 100%;
-    height: 555px;
+    height: 450px;
   }
   .cooking-form {
     padding-left: 30px;
@@ -583,15 +596,13 @@ button.view-projects{
   }
   .white-box{
     background: white;
-    border-radius: 40px;
-    margin-top: 40px !important;
-    /* padding: 80px; */
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 120px;
+    border-radius: 20px;
+    margin-top: 110px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
     padding-bottom: 120px;
-    margin: auto;
-    /* text-align: left; */
+
   }
   .conclusion-box {
     background: #133D1C;
@@ -618,6 +629,116 @@ button.view-projects{
     margin-bottom: 30px;
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .cooking-h1 {
+    font-family: Yeseva One;
+    font-size: 40px;
+    padding-right: 0px;
+  }
+  
+  .bicycle-man {
+    width: 50%;
+  }
+  .green-h1 {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+
+
+
+  .green-box-hero {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+  .green-box-hero-disc {
+    margin-top: 10px;
+    /* width: 100%; */
+  }
+  .ourpass-introduction-h1{
+    font-family: Helvetica Neue;
+    color: #133D1C;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .ourpass-introduction-p{
+    font-family: Helvetica Neue;
+    color: #133D1C;
+    /* margin-bottom: 20px; */
+    font-size: 20px;
+    /* font-weight: bold; */
+  }
+  
+  .conclusion-h1 {
+    font-family: Yeseva One;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+  div.conclusion-box {
+    background: #133D1C;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    max-width: 100%;
+  }
+  .ourpass-introduction{
+    font-family: Helvetica Neue;
+    color: #133D1C;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .ourpass-h1 {
+    color: #133D1C;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+  }
+  .green-boxes {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .wtd-h1 {
+    font-family: Yeseva One;
+    font-size: 50px;
+    /* line-height: 33px; */
+    margin-bottom: 20px;
+    color:#133D1C;
+  }
+  .looking {
+    text-align: center;
+    align-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  .looking-h1 {
+    font-family: Yeseva One;
+    font-size: 53px;
+    /* line-height: 50px; */
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color:#133D1C;
+    /* padding-left: 60px; */
+    padding-right: 0px;
+  }
+  .looking-p {
+    color:#133D1C;
+    /* margin-bottom: 40px; */
+    /* padding-left: 60px; */
+    padding-right: 0px;
+    /* font-size: 14px; */
+  }
+  .woman-finder {
+    width: 40%;
+    margin-top: 30px;
   }
 }
 
@@ -885,7 +1006,7 @@ button.view-projects{
   position: relative;
 } */
 #hero:before {
-  content: "";
+  /* content: ""; */
   background: #D6FE5E;
   position: absolute;
   bottom: 0;
