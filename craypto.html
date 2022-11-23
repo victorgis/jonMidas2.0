@@ -192,7 +192,7 @@
     </section>
     <!-- End About Section -->
 
-    <section id="about" class="about">
+    <section id="form" class="about">
       <div class="container">
         <!-- Form Section -->
         <div class="white-box">
@@ -200,11 +200,13 @@
             <div class="col-lg-8 col-md-12 cooking-form">
               <p class="cooking-h1"><b>Ready to cook up something?
                 Let’s talk</b></p>
-              <form action="" netlify>
-                <input class="w3-input w3-animate-input" type="text" placeholder="Full name">
-                <input class="w3-input w3-animate-input" type="text" placeholder="Email">
-                <input class="w3-input w3-animate-input" type="text" placeholder="Hello...">
-                <button class="reach-me-form" style="margin-top: 30px;">Say Hello</button>
+              <form id="contact-form">
+                <input type="hidden" name="contact_number">
+                <input class="w3-input w3-animate-input" type="text" placeholder="Full name" name="user_name">
+                <input class="w3-input w3-animate-input" type="email" placeholder="Email" name="user_email">
+                <input class="w3-input w3-animate-input" type="text" placeholder="Hello..." name="message">
+                <button class="reach-me-form" id="refresh" type="submit" value="Send" style="margin-top: 30px;">Say Hello</button>
+                <div id="alertMe" class="margin-top-20"></div>
               </form>
             </div>
             <div class="col-lg-4 col-md-12 homffice-girl">
